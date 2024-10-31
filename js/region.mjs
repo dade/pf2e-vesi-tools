@@ -305,7 +305,7 @@ export default class VesiRegionMap {
       onClick: () => vesi.state.reset()
     }
     tokens.tools.push(this.#hexTool, this.#zoneTool);
-    // tokens.tools.push(this.#resetTool);
+    tokens.tools.push(this.#resetTool);
   }
 
   /* -------------------------------------------- */
