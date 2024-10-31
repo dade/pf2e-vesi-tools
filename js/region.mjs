@@ -296,16 +296,16 @@ export default class VesiRegionMap {
       active: this.zoneGraphics.visible ?? false,
       onClick: () => (this.zoneGraphics.visible = !this.zoneGraphics.visible),
     };
-    // this.#resetTool = {
-    //   name: "reset",
-    //   title: "Reset Map Data",
-    //   icon: "fa-solid fa-cancel",
-    //   visible: true,
-    //   toggle: false,
-    //   onClick: () => vesi.state.reset()
-    // }
+    this.#resetTool = {
+      name: "reset",
+      title: "Reset Map Data",
+      icon: "fa-solid fa-cancel",
+      visible: false,
+      toggle: false,
+      onClick: () => vesi.state.reset()
+    }
     tokens.tools.push(this.#hexTool, this.#zoneTool);
-    tokens.tools.push(this.#resetTool);
+    // tokens.tools.push(this.#resetTool);
   }
 
   /* -------------------------------------------- */
