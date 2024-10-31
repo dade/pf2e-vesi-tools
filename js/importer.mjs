@@ -42,7 +42,7 @@ const IMPORT_OPTIONS = {
 export function onRenderAdventureImporter(app, html) {
   const adventure = app.object;
 
-  if (adventure.pach !== "pf2e-vesi-tools.vesi") return;
+  if (adventure.pack !== "pf2e-vesi-tools.vesi") return;
   app.element[0].classList.add(vesi.CSS_CLASS);
 
   let importOptions = `<section class="import-form"><h2>Importer Options</h2>`;

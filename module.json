@@ -3,7 +3,7 @@
   "title": "PF2e Vesi Tools",
   "description": "A set of tools for Vodari/Salty Dogs.",
   "authors": [{ "name": "Dale 'badgr' Emasiri" }],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": {
     "minimum": "11",
     "verified": "12"
@@ -47,5 +47,5 @@
   "styles": ["styles/pf2e-vesi.css"],
   "protected": false,
   "manifest": "https://github.com/dade/pf2e-vesi-tools/releases/latest/download/module.json",
-  "download": "https://github.com/dade/pf2e-vesi-tools/archive/1.0.0.zip"
+  "download": "https://github.com/dade/pf2e-vesi-tools/archive/1.0.1.zip"
 }
