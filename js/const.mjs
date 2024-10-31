@@ -212,7 +212,7 @@ export const COMMODITIES = Object.freeze({
   luxuries: {
     id: "luxuries",
     label: "VESI.COMMODITIES.LUXURIES",
-    img: "modules/pf2e-vesi-tools/assets/maps-regions/vesi/features/luxuries.webp",
+    img: "modules/pf2e-vesi-tools/assets/maps-regions/vesi/features/luxury.webp",
   },
   stone: {
     id: "stone",
