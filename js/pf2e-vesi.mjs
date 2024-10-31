@@ -130,7 +130,7 @@ Hooks.once("init", function () {
 });
 
 Hooks.once("ready", async function () {
-  // game.settings.set("pf2e", "campaignType", "vesi");
+  game.settings.set("pf2e", "campaignType", "vesi");
 
   // Imported state
   game.settings.register(MODULE_ID, "imported", {

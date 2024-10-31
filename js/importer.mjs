@@ -19,7 +19,7 @@ const IMPORT_OPTIONS = {
     handler: async (adventure, option) => {
       game.scenes.get(option.sceneId)?.activate();
       const vesiMap = game.scenes.get("5eXCiQz9RpktC1ni"); // the world map...?
-      await vesiMap.update({ nvagiation: true });
+      await vesiMap.update({ navigation: true });
     },
     sceneId: ""
   },
@@ -77,5 +77,5 @@ export function onImportAdventure(adventure, importOptions) {
     option.handler(adventure, option);
   }
 
-  if (!("resetState" in IMPORT_OPTIONS)) vesi.state.reset();
+  if (!("resetState" in importOptions)) vesi.state.reset();
 }

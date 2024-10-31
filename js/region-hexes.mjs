@@ -1449,12 +1449,12 @@ export default Object.freeze({
 	"15.42": {
     zone: "KH",
     terrain: "islands",
-    travel: "ocean"
+    travel: "water"
   },
 	"15.43": {
     zone: "KH",
     terrain: "ocean",
-    travel: "ocean"
+    travel: "water"
   },
 	"15.44": { zone: "NA" },
 	"15.45": { zone: "NA" },
