@@ -2,6 +2,9 @@
 The bulk of this are the overworld map tools, which gives the Kingmaker style overworld map controls in this campaign.
 
 ## Changelog
+### v1.2.0
+- Updated the system to work with V13 of Foundry
+
 ### v1.0.2
 - Multiple fixes to resolve errors with extended menu buttons
 
